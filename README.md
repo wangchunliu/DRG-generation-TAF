@@ -1,5 +1,5 @@
 # DRG-generation-TAF
-
+Code for the paper: Controlling Topic-Focus Articulation in Meaning-to-Text Generation using Graph Neural Networks.
 ## Environment (not sure)
 - python>=3.8
 - cuda==11.0
