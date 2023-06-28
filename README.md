@@ -9,7 +9,9 @@ Code for the paper: Controlling Topic-Focus Articulation in Meaning-to-Text Gene
 - torch-geometric==1.5.0
 
 ```
-#link about install torch-geometric:
-#https://www.cnblogs.com/dive-into/p/16953369.html
-#https://pytorch-geometric.com/whl/
+#link about installing torch-geometric:
+https://www.cnblogs.com/dive-into/p/16953369.html
+https://pytorch-geometric.com/whl/
+#link about installing gcc
+https://zhuanlan.zhihu.com/p/371807723
 ```
