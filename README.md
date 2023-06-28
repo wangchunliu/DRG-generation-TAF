@@ -1,6 +1,6 @@
 # DRG-generation-TAF
 
-## Enviroment (not sure)
+## Environment (not sure)
 - python>=3.8
 - cuda==11.0
 - gcc=9.4
