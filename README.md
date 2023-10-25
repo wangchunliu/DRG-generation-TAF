@@ -15,3 +15,30 @@ https://pytorch-geometric.com/whl/
 #link about installing gcc
 https://zhuanlan.zhihu.com/p/371807723
 ```
+
+## Data
+```
+# Download the data SBN-4.0.0 from PMB
+# randomly spite data to train, dev, and test (1000)
+# preprocess the SBN to sequential formats, such as the file "train.txt.graph.normal"
+python SBN_process/sbn_preprocess.py -input_src data/train.txt
+python SBN_process/sbn_preprocess.py -input_src data/test.txt
+python SBN_process/sbn_preprocess.py -input_src data/dev.txt
+```
+
+## Process
+```
+sh preprocess.sh
+```
+
+## Train
+```
+sh train.sh
+```
+
+## Testn Set
+```
+sh decoder.sh
+```
+
+## Challenge Set
